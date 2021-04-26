@@ -16,6 +16,7 @@ If you are having trouble with using any of these libraries despite installing t
 -https://github.com/keras-team/keras
 
 *Below are libraries that were used to create heatmaps so we could visually see of results*
+
 **Seaborn** *Seaborn also required the 3 libaries below*
 -https://github.com/mwaskom/seaborn
 
