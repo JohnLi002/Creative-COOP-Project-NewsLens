@@ -1,1 +1,1 @@
-# NewsLens-Machine-Learning
+# NewsLens Machine Learning
