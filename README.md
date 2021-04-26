@@ -13,6 +13,7 @@ If you are having trouble with using any of these libraries despite installing t
 [TensorFlow](https://github.com/tensorflow/tensorflow/)
 
 [Keras](https://github.com/keras-team/keras)
+-Although you can use tensorflow to get to Keras, there is also the option of installing it directly [here](https://pypi.org/project/keras/)
 
 *Below are libraries that were used to create heatmaps so we could visually see of results*
 
