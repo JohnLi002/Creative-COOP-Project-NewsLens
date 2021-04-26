@@ -2,8 +2,8 @@
 
 The overall purpose of NewsLens is to help highlight the bias present in articles. Currently this repository only contains files related to a machine learning algorithms with the purpose of predicting the news outlet based on the text given to it as well as various other files with the purpose of bringing our project to life. We are far from done however we hope that in the future we can complete it.
 
-There are several csv files we used but are not present within this github. I you want to use the datasets we used, everything originates from the "All the News" in Kaggle
-https://www.kaggle.com/snapcrack/all-the-news
+There are several csv files we used but are not present within this github. I you want to use the datasets we used, everything originates from the "All the News" in [Kaggle]
+(https://www.kaggle.com/snapcrack/all-the-news)
 You can use our Categorize_Datasets.py and Create_Test_Dataset.py files withiin the Datasets folder to help create csv files that were used.
 
 ## Libraries were installed
