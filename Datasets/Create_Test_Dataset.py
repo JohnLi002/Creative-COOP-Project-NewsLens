@@ -1,20 +1,20 @@
 import csv
 
-news = ['Web_Scraping/Keyword_Extraction/Datasets/CNN_set.csv',
-        'Web_Scraping/Keyword_Extraction/Datasets/NewYorkTimes_set.csv',
-        'Web_Scraping/Keyword_Extraction/Datasets/BusinessInsider_set.csv',
-        'Web_Scraping/Keyword_Extraction/Datasets/Breitbart_set.csv',
-        'Web_Scraping/Keyword_Extraction/Datasets/Vox_set.csv', #
-        'Web_Scraping/Keyword_Extraction/Datasets/NPR_set.csv',
-        'Web_Scraping/Keyword_Extraction/Datasets/NewYorkPost_set.csv', #
-        'Web_Scraping/Keyword_Extraction/Datasets/TalkingPointsMemo_set.csv', #
-        'Web_Scraping/Keyword_Extraction/Datasets/Guardian_set.csv',
-        'Web_Scraping/Keyword_Extraction/Datasets/FoxNews_set.csv',
-        'Web_Scraping/Keyword_Extraction/Datasets/Atlantic_set.csv',
-        'Web_Scraping/Keyword_Extraction/Datasets/WashingtonPost_set.csv',
-        'Web_Scraping/Keyword_Extraction/Datasets/NationalReview_set.csv',
-        'Web_Scraping/Keyword_Extraction/Datasets/Reuters_set.csv'] #
-with open('Web_Scraping/test.csv', mode = 'w', encoding = 'utf-8', newline='') as news_set:
+news = ['Datasets/publication_Dataset/CNN_set.csv',
+        'Datasets/publication_Dataset/NewYorkTimes_set.csv',
+        'Datasets/publication_Dataset/BusinessInsider_set.csv',
+        'Datasets/publication_Dataset/Breitbart_set.csv',
+        'Datasets/publication_Dataset/Vox_set.csv', #
+        'Datasets/publication_Dataset/NPR_set.csv',
+        'Datasets/publication_Dataset/NewYorkPost_set.csv', #
+        'Datasets/publication_Dataset/TalkingPointsMemo_set.csv', #
+        'Datasets/publication_Dataset/Guardian_set.csv',
+        'Datasets/publication_Dataset/FoxNews_set.csv',
+        'Datasets/publication_Dataset/Atlantic_set.csv',
+        'Datasets/publication_Dataset/WashingtonPost_set.csv',
+        'Datasets/publication_Dataset/NationalReview_set.csv',
+        'Datasets/publication_Dataset/Reuters_set.csv'] #
+with open('Datasets/test.csv', mode = 'w', encoding = 'utf-8', newline='') as news_set:
     first = True
     copier = csv.writer(news_set, delimiter = ',', quotechar = '"', quoting = csv.QUOTE_MINIMAL)
     for news_outlet in news:
