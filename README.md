@@ -1,4 +1,7 @@
 # NewsLens
+
+The overall purpose of NewsLens is to help highlight the bias present in articles. Currently this repository only contains files related to a machine learning algorithms with the purpose of predicting the news outlet based on the text given to it as well as various other files with the purpose of bringing our project to life. We are far from done however we hope that in the future we can complete it.
+
 Current datasets originate from the "All the News" in Kaggle
 https://www.kaggle.com/snapcrack/all-the-news
 
