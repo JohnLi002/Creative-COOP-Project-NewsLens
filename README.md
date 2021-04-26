@@ -13,8 +13,8 @@ If you are having trouble with using any of these libraries despite installing t
 [TensorFlow](https://github.com/tensorflow/tensorflow/)
 
 [Keras](https://github.com/keras-team/keras)
--Although you can use tensorflow to get to Keras, there is also the option of installing it directly [here](https://pypi.org/project/keras/)
 
+-For this project I downloaded it, and you can learn to do so [here](https://pypi.org/project/keras/), however there seems to also be the option of using Keras by simply importing it through TensorFlow. You will need to modify some parts of the code if you choose to use Keras through TensorFlow.
 *Below are libraries that were used to create heatmaps so we could visually see of results*
 
 [Seaborn](https://github.com/mwaskom/seaborn) *Seaborn also required the 3 libaries below*
