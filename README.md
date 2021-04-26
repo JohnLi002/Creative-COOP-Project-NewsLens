@@ -8,42 +8,30 @@ There are several csv files we used but are not present within this github. I yo
 If you are having trouble with using any of these libraries despite installing the necessary them, please try to use anaconda and create an environment that solely for the specific packages needed. That is what I had done to run some of these files.
 
 ### Libraries used to create Neural Network
-**Sci-Kit Learn**
--https://github.com/scikit-learn/scikit-learn
+[Sci-Kit Learn](https://github.com/scikit-learn/scikit-learn)
 
-**TensorFlow**
--https://github.com/tensorflow/tensorflow/
+[TensorFlow](https://github.com/tensorflow/tensorflow/)
 
-**Keras**
--https://github.com/keras-team/keras
+[Keras](https://github.com/keras-team/keras)
 
 *Below are libraries that were used to create heatmaps so we could visually see of results*
 
-**Seaborn** *Seaborn also required the 3 libaries below*
--https://github.com/mwaskom/seaborn
+[Seaborn](https://github.com/mwaskom/seaborn) *Seaborn also required the 3 libaries below*
 
-**Numpy**
--https://github.com/numpy/numpy
+[Numpy](https://github.com/numpy/numpy)
 
-**Matlabplot**
--https://github.com/matplotlib/matplotlib
+[Matlabplot](https://github.com/matplotlib/matplotlib)
 
-**pandas**
--https://github.com/pandas-dev/pandas
+[pandas](https://github.com/pandas-dev/pandas)
 
 
 ### Libraries used for Keyword Extraction
-**scikit learn**
--https://github.com/scikit-learn/scikit-learn
+[scikit learn](https://github.com/scikit-learn/scikit-learn)
 
-**rake-nltk**
--https://github.com/csurfer/rake-nltk
+[rake-nltk](https://github.com/csurfer/rake-nltk)
 
-**gensim**
--https://github.com/RaRe-Technologies/gensim
+[gensim](https://github.com/RaRe-Technologies/gensim)
 
-**YAKE**
--https://github.com/LIAAD/yake
+[YAKE](https://github.com/LIAAD/yake)
 
-**KeyBERT**
--https://github.com/MaartenGr/KeyBERT
+[KeyBERT](https://github.com/MaartenGr/KeyBERT)
