@@ -9,7 +9,7 @@ We have saved our current model in the h5 file model.h5.
 ## Libraries were installed
 If you are having trouble with using any of these libraries despite installing the necessary them, please try to use anaconda and create an environment that solely for the specific packages needed. That is what was had done to run some of these files. The following libraries mentioned are linked to their Github pages. Check their README.md for more information and links to their documentation as well as how to install their libraries. Some of these libraries have prerequisite but I only mentioned the ones below because they are the libraries that I have specified to be imported in some of the code. 
 
-### Libraries used to create Neural Network
+### Libraries used to create the Neural Network
 [Sci-Kit Learn](https://github.com/scikit-learn/scikit-learn)
 
 [TensorFlow](https://github.com/tensorflow/tensorflow/)
@@ -20,7 +20,12 @@ If you are having trouble with using any of these libraries despite installing t
 [Keras](https://github.com/keras-team/keras)
 -For this project Keras was installed, and you can learn to do so [here](https://pypi.org/project/keras/) as the documentation within does not mention how to do so. However there seems to also be the option of using Keras by simply importing it through TensorFlow. You will need to modify some parts of the code if you choose to use Keras through TensorFlow.
 
-**Following four libraries that were used to create heatmaps so we could visually see of results**
+### Libraries used to create the Naive Bayes algorithm
+[Sci-Kit learn](https://github.com/scikit-learn/scikit-learn)
+
+[nltk](https://github.com/nltk/nltk)
+
+**Following four libraries that were used to create heatmaps so we could visually see of results from both the neural network and naive bayes algorithms**
 
 [Seaborn](https://github.com/mwaskom/seaborn) *Seaborn also required the 3 libaries below*
 
@@ -32,7 +37,7 @@ If you are having trouble with using any of these libraries despite installing t
 
 
 ### Libraries used for Keyword Extraction
-[scikit learn](https://github.com/scikit-learn/scikit-learn)
+[Sci-Kit learn](https://github.com/scikit-learn/scikit-learn)
 -For TF-IDF
 
 [rake-nltk](https://github.com/csurfer/rake-nltk)
