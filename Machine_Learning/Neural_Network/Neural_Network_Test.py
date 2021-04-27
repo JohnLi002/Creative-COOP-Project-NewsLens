@@ -23,7 +23,7 @@ def decode(le, one_hot):
 
 embed = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")
 #read in data using pandas
-train_df = pd.read_csv("Web_Scraping/test.csv")
+train_df = pd.read_csv("Datasets/test.csv")
 #Check if csv was read correctly
 print(train_df.head())
 
@@ -76,7 +76,7 @@ y_preds = decode(le, predicts)
 y_unique = np.array(Y)
 y_unique = np.unique(y_unique) #unique Y values
 mat = confusion_matrix(y_true=y_test, y_pred=y_preds,normalize='true')
-sns.heatmap(mat.T, square = True, annot=True, fmt = ".2f", xticklabels=y_unique,yticklabels=y_unique)
+sns.heatmap(mat.T, square = True, annot=True, fmt = ".4f", xticklabels=y_unique,yticklabels=y_unique)
 plt.xlabel("true labels")
 plt.ylabel("predicted label")
 plt.title("Predicted Values vs. Real Values")
