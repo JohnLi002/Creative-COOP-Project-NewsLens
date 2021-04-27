@@ -20,13 +20,6 @@ tfidf_vectorizer=TfidfVectorizer(use_idf=True, stop_words=["the", "of", "in", "t
 # just send in all your docs here 
 tfidf_vectorizer_vectors=tfidf_vectorizer.fit_transform(All_The_Words)
 
-# get the first vector out (for the first document) 
-#first_vector_tfidfvectorizer=tfidf_vectorizer_vectors[0] 
- 
-# place tf-idf values in a pandas data frame 
-#df = pd.DataFrame(first_vector_tfidfvectorizer.T.todense(), index=tfidf_vectorizer.get_feature_names(), columns=['TF-IDF']) 
-#df = df.sort_values('TF-IDF', ascending = False)
-#print(df.head(20))
 
 first = True
 with open('Web_Scraping/Keyword_Extraction/Keyword_Extraction_Method/Keyword_Results/NewYorkTimes_result.csv', mode = 'w', encoding = 'utf-8', newline='') as news_set:
