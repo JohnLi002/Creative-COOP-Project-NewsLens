@@ -25,17 +25,6 @@ If you are having trouble with using any of these libraries despite installing t
 
 [nltk](https://github.com/nltk/nltk)
 
-**Following four libraries that were used to create heatmaps so we could visually see of results from both the neural network and naive bayes algorithms**
-
-[Seaborn](https://github.com/mwaskom/seaborn) *Seaborn also required the 3 libaries below*
-
-[Numpy](https://github.com/numpy/numpy)
-
-[Matlabplot](https://github.com/matplotlib/matplotlib)
-
-[pandas](https://github.com/pandas-dev/pandas)
-
-
 ### Libraries used for Keyword Extraction
 [Sci-Kit learn](https://github.com/scikit-learn/scikit-learn)
 -For TF-IDF
@@ -48,3 +37,12 @@ If you are having trouble with using any of these libraries despite installing t
 [YAKE](https://github.com/LIAAD/yake)
 
 [KeyBERT](https://github.com/MaartenGr/KeyBERT)
+
+### Libraries used to visual results of Neural Network and Naive Bayes Algorithms
+[Seaborn](https://github.com/mwaskom/seaborn) *Seaborn also required the 3 libaries below*
+
+[Numpy](https://github.com/numpy/numpy)
+
+[Matlabplot](https://github.com/matplotlib/matplotlib)
+
+[pandas](https://github.com/pandas-dev/pandas)
