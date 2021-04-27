@@ -1,11 +1,11 @@
-#references:
+#Tutorials looked at:
 # https://towardsdatascience.com/text-classification-using-naive-bayes-theory-a-working-example-2ef4b7eb7d5a
 # https://medium.com/@awantikdas/a-comprehensive-naive-bayes-tutorial-using-scikit-learn-f6b71ae84431
 # https://coderzcolumn.com/tutorials/machine-learning/scikit-learn-sklearn-naive-bayes
 
 import numpy as np, pandas as pd
 import seaborn as sns
-import matplotlib.pyplot as plt #https://github.com/matplotlib/matplotlib
+import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
