@@ -14,13 +14,13 @@ We have saved our current model in the h5 file model.h5.
 In the “Datasets” folder are files that deal with keyword extraction. Each and every single one of them have a different keyword extraction method that was used. The names of the different keyword extraction models used are in the file name after the "Datasets_" part. The specific libraries that were used are shown below this whole section in **Libararies used for keyword extraction**
 
 ### Neural Network
-The files that start with “Neural_Network” are files that deal with the creation of a neural network. “Neural_Network_Test_Code” is the code that was used to create and save our neural network model. “Neural_Network_Load_Code” takes the saved model and loads it up so that it can be used to get predictions without having to go through the process of training. 
+The files that start with “Neural_Network” are files that deal with the creation of a neural network. “Neural_Network_Test.py” is the code that was used to create and save our neural network model. “Neural_Network_Load.py” takes the saved model and loads it up so that it can be used to get predictions without having to go through the process of training. 
 
 ### Naive Bayes
-There is a single “Naive_Bayes_Code” is the file that deals with the creation of the naive bayes algorithm.
+There is a single “Naive_Bayes.py” is the file in the "Naive_Bayes" folder that deals with the creation of the naive bayes algorithm.
 
 ### Datasets Creation
-Within the "Datasets" folder are two different python files: “Create_Test_Dataset_Code'' and “Categorize_Datasets_Code”. Both pertain to creating csv files from a seperate dataset that was downloaded from the “All the News” in Kaggle. The “Create_Test_Dataset_Code” creates a single large dataset to be used for training while the “Categorize_Datasets_Code” creates a separate dataset that only constrains content with the same publisher. Overall, the purpose of the file was to create different csv files that would be used to train machine learning algorithms
+Within the "Datasets" folder are two different python files: “Create_Test_Dataset.py" and “Categorize_Datasets.py”. Both pertain to creating csv files from a seperate dataset that was downloaded from the “All the News” in Kaggle. The “Create_Test_Dataset.py” creates a single large dataset to be used for training while the “Categorize_Datasets.py” creates a separate dataset that only constrains content with the same publisher. Overall, the purpose of the file was to create different csv files that would be used to train machine learning algorithms
 
 
 ## Libraries were installed
