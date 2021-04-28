@@ -44,12 +44,13 @@ If you are having trouble with using any of these libraries despite installing t
 
 ### Libraries used for Keyword Extraction
 [Sci-Kit learn](https://github.com/scikit-learn/scikit-learn)
--For TF-IDF
+-For TF-IDF keyword extraction method
 
 [rake-nltk](https://github.com/csurfer/rake-nltk)
+-For RAKE keyword extraction method
 
 [gensim](https://github.com/RaRe-Technologies/gensim)
--For TextRank method
+-For TextRank keyword extraction method
 
 [YAKE](https://github.com/LIAAD/yake)
 
