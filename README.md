@@ -24,7 +24,9 @@ Within the "Datasets" folder are two different python files: “Create_Test_Data
 
 
 ## Libraries were installed
-If you are having trouble with using any of these libraries despite installing the necessary them, please try to use anaconda and create an environment that solely for the specific packages needed. That is what was had done to run some of these files. The following libraries mentioned are linked to their Github pages. Check their README.md for more information and links to their documentation as well as how to install their libraries. Some of these libraries have prerequisite but I only mentioned the ones below because they are the libraries that I have specified to be imported in some of the code. 
+If you are having trouble with using any of these libraries despite installing the necessary them, please try to use anaconda and create an environment that solely for the specific packages needed. That is what was had done to run some of these files. The following libraries mentioned are linked to their Github pages. Check their README.md for more information and links to their documentation as well as how to install their libraries. 
+
+Some of these libraries have prerequisite but I only mentioned the ones below because they are the libraries that I have specified to be imported in some of the code. 
 
 ### Libraries used to create the Neural Network
 [Sci-Kit Learn](https://github.com/scikit-learn/scikit-learn)
