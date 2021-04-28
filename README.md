@@ -6,6 +6,21 @@ There are several csv files we used but are not present within this github. If y
 
 We have saved our current model in the h5 file model.h5.
 
+## Files Created
+
+### Keyword Extraction Algorithms
+Files that start with “Datasets” are files that deal with keyword extraction. Each and every single one of them have a different keyword extraction method that was used.
+
+### Neural Network
+The files that start with “Neural_Network” are files that deal with the creation of a neural network. “Neural_Network_Test_Code” is the code that was used to create and save our neural network model. “Neural_Network_Load_Code” takes the saved model and loads it up so that it can be used to get predictions without having to go through the process of training.
+
+### Naive Bayes
+There is a single “Naive_Bayes_Code” is the file that deals with the creation of the naive bayes algorithm.
+
+### Datasets
+The two files, “Create_Test_Dataset_Code'' and “Categorize_Datasets_Code” both pertain to creating csv files from the “All the News” dataset that we used. The “Create_Test_Dataset_Code” creates a single large dataset to be used for training while the “Categorize_Datasets_Code” creates a separate dataset that only constrains content with the same publisher.
+
+
 ## Libraries were installed
 If you are having trouble with using any of these libraries despite installing the necessary them, please try to use anaconda and create an environment that solely for the specific packages needed. That is what was had done to run some of these files. The following libraries mentioned are linked to their Github pages. Check their README.md for more information and links to their documentation as well as how to install their libraries. Some of these libraries have prerequisite but I only mentioned the ones below because they are the libraries that I have specified to be imported in some of the code. 
 
