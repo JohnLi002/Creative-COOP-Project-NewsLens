@@ -14,7 +14,7 @@ news = ['Datasets/publication_Dataset/CNN_set.csv',
         'Datasets/publication_Dataset/WashingtonPost_set.csv',
         'Datasets/publication_Dataset/NationalReview_set.csv',
         'Datasets/publication_Dataset/Reuters_set.csv'] #
-with open('Datasets/test.csv', mode = 'w', encoding = 'utf-8', newline='') as news_set:
+with open('Datasets/test2.csv', mode = 'w', encoding = 'utf-8', newline='') as news_set:
     first = True
     copier = csv.writer(news_set, delimiter = ',', quotechar = '"', quoting = csv.QUOTE_MINIMAL)
     for news_outlet in news:
@@ -31,7 +31,7 @@ with open('Datasets/test.csv', mode = 'w', encoding = 'utf-8', newline='') as ne
                 elif first_row:
                     first_row = False
                     continue
-                else:#if total < 1000:
+                else: #if total < 1000:
                     new_row = []
                     new_row.append(row[2])
                     new_row.append(row[8])
